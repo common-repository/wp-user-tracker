@@ -1,0 +1,125 @@
+.wpusertracker_larger_size
+{
+	width: 50%;
+}
+
+.wpusertracker_smaller_size
+{
+	width: 30%;
+	text-align: left;
+}
+
+#wpusertracker_online_text:before
+{
+	padding:0 5px 0 0;
+	content: url('../img/nowonline.png');
+	vertical-align:-20%;
+}
+
+#wpusertracker_today_text:before
+{
+	padding:0 5px 0 0;
+	content: url('../img/today.png');
+	vertical-align:-20%;
+}
+
+#wpusertracker_thisweek_text:before
+{
+	padding:0 5px 0 0;
+	content: url('../img/thisweek.png');
+	vertical-align:-20%;
+}
+
+#wpusertracker_thismonth_text:before
+{
+	padding:0 5px 0 0;
+	content: url('../img/thismonth.png');
+	vertical-align:-20%;
+}
+
+#wpusertracker_alltime_text:before
+{
+	padding:0 5px 0 0;
+	content: url('../img/alltime.png');
+	vertical-align:-20%;
+}
+
+.wpusertracker_lefter
+{
+	float: left;
+}
+
+.wpusertracker_righter
+{
+	float: right;
+}
+
+.higher:after
+{
+	padding:0 5px 0 5px;
+	content: url('../img/up.png');
+	vertical-align:-20%;
+}
+
+.lower:after
+{
+	padding:0 5px 0 5px;
+	content: url('../img/down.png');
+	vertical-align:-20%;
+}
+
+.wpusertracker_notification_default
+{
+	width: 380px;
+	height: 50px;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-radius: 4px;
+	box-shadow: inset 1px 6px 12px #CCCCCC, inset -1px -10px 5px #CCCCCC, 1px 2px 1px black;
+	-o-box-shadow: inset 1px 6px 12px #CCCCCC, inset -1px -10px 5px #CCCCCC, 1px 2px 1px black;
+	-webkit-box-shadow: inset 1px 6px 12px #CCCCCC, inset -1px -10px 5px #CCCCCC, 1px 2px 1px black;
+	-moz-box-shadow: inset 1px 6px 12px #CCCCCC, inset -1px -10px 5px #CCCCCC, 1px 2px 1px black;
+}
+
+.wpusertracker_notification_top 
+{
+	position: fixed;
+	top: 40px;
+	z-index: 99999;
+	display: none;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.wpusertracker_notification_bottom
+{
+	position: fixed;
+	bottom: 40px;
+	z-index: 1000;
+	display: none;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.wpusertracker_readers_block .usercounts
+{
+	float: left;
+	padding-top:5px;
+	font-weight: bold;
+	font-size:100%;
+}
+
+.wpusertracker_readers_block .userimg
+{
+	float: left;
+}
+
+.wpusertracker_readers_block .userimg img
+{
+	border:0px;
+	margin-left:5px;
+	width: 32px;
+	box-shadow: 0px 0px 0px;
+}
+
+

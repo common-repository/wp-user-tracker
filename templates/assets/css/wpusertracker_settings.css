@@ -1,0 +1,121 @@
+.settings_page_pantherius_wpusertracker .wrap .form-table th {
+	width: 400px;
+}
+
+.settings_page_pantherius_wpusertracker .wrap hr { 
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+.settings_page_pantherius_wpusertracker .wrap h3 {
+	font-family: 'Tangerine', serif;
+	text-shadow: 4px 4px 4px #aaa;
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.settings_page_pantherius_wpusertracker .wrap h2 {
+	font-family: 'Tangerine', serif;
+	text-shadow: 4px 4px 4px #aaa;
+	text-align: left;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.wpusertracker_readers_block
+{
+	float: left;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+
+.wpusertracker_readers_block .usercounts
+{
+	float: left;
+	padding-top:5px;
+	font-weight: bold;
+	font-size:100%;
+}
+
+.wpusertracker_readers_block .userimg
+{
+	float: left;
+}
+
+.wpusertracker_readers_block .userimg img
+{
+	border:0px;
+	margin-left:5px;
+	width: 32px;
+	box-shadow: 0px;
+}
+
+.wpusertracker_larger_size
+{
+	width: 70%;
+}
+
+.wpusertracker_smaller_size
+{
+	width: 25%;
+	text-align: right;
+}
+
+#wpusertracker_online_text:before
+{
+	padding:0 5px 0 0;
+	content: url('../img/nowonline.png');
+	vertical-align:-20%;
+}
+
+#wpusertracker_today_text:before
+{
+	padding:0 5px 0 0;
+	content: url('../img/today.png');
+	vertical-align:-20%;
+}
+
+#wpusertracker_thisweek_text:before
+{
+	padding:0 5px 0 0;
+	content: url('../img/thisweek.png');
+	vertical-align:-20%;
+}
+
+#wpusertracker_thismonth_text:before
+{
+	padding:0 5px 0 0;
+	content: url('../img/thismonth.png');
+	vertical-align:-20%;
+}
+
+#wpusertracker_alltime_text:before
+{
+	padding:0 5px 0 0;
+	content: url('../img/alltime.png');
+	vertical-align:-20%;
+}
+
+.higher:after
+{
+	padding:0 5px 0 5px;
+	content: url('../img/up.png');
+	vertical-align:-20%;
+}
+
+.lower:after
+{
+	padding:0 5px 0 5px;
+	content: url('../img/down.png');
+	vertical-align:-20%;
+}
+
+.wpusertracker_righter
+{
+	float: right;
+}
